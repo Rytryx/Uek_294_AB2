@@ -46,6 +46,11 @@
         </p>
       </div>
     </pg-accordion-element>
+
+    <span *ngFor="let item of values; let i = index">
+      <div class="box-wrapper" *pgDelay="500 * i">{{ item }}</div>
+    </span>
+
   </pg-accordion-wrapper>
 </body>
 
