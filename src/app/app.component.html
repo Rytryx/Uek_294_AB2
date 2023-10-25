@@ -50,6 +50,10 @@
     <span *ngFor="let item of values; let i = index">
       <div class="box-wrapper" *pgDelay="500 * i">{{ item }}</div>
     </span>
+    
+    <div *appRange="range(18, 100); let num">
+      {{ num }}
+    </div>
 
   </pg-accordion-wrapper>
 </body>

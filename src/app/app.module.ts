@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { AccordionWrapperComponent } from './accordion-wrapper.component';
 import { AccordionElementComponent } from './accordion-element.component';
 import { DelayDirective } from './delay.directive';
+import { RangeDirective } from './range.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccordionWrapperComponent,
     AccordionElementComponent,
-    DelayDirective
+    DelayDirective,
+    RangeDirective
   ],
   imports: [
     BrowserModule,
