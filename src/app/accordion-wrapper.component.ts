@@ -1,5 +1,5 @@
 import { Component, ContentChildren, QueryList, AfterContentInit } from '@angular/core';
-import { AccordionElementComponent } from '../accordion-element/accordion-element.component';
+import { AccordionElementComponent } from './accordion-element.component';
 
 @Component({
   selector: 'pg-accordion-wrapper',
@@ -10,7 +10,7 @@ import { AccordionElementComponent } from '../accordion-element/accordion-elemen
   `,
 })
 export class AccordionWrapperComponent implements AfterContentInit {
-  @ContentChildren(AccordionElementComponent) accElements: QueryList<AccordionElementComponent>;
+  @ContentChildren(AccordionElementComponent) accElements!: QueryList<AccordionElementComponent>;
 
   ngAfterContentInit(): void {
     this.accElements.toArray().forEach(element => {

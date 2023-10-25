@@ -12,7 +12,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   `,
 })
 export class AccordionElementComponent {
-  @Input() title: string;
+  @Input() title!: string;
   @Input() isVisible: boolean = false;
   @Output() toggleAccordion: EventEmitter<void> = new EventEmitter<void>();
 }

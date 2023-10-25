@@ -4,9 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+
+import { AccordionWrapperComponent } from './accordion-wrapper.component';
+import { AccordionElementComponent } from './accordion-element.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccordionWrapperComponent,
+    AccordionElementComponent,
   ],
   imports: [
     BrowserModule,
@@ -16,3 +22,4 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
