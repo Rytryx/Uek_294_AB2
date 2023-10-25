@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion Example</title>
+</head>
+
+<body>
+  <pg-accordion-wrapper>
+    <pg-accordion-element [title]="'Bern'" [isVisible]="true">
+      <div>
+        <p>
+          Bern gehört mit 142'479 Einwohnern neben Zürich, Genf, Basel und Lausanne – zu den grössten Gemeinden der Schweiz;
+          rund 390'000 Personen wohnen in der Agglomeration Bern.[3] Die Stadt Bern ist das Zentrum der Wirtschaftsregion
+          Bern-Mittelland. Die Stadt ist nicht nur Sitz der städtischen und kantonalen, sondern als Bundesstadt auch der
+          eidgenössischen Verwaltung und damit das grösste Verwaltungszentrum der Schweiz. Seit längerem bestehen Bestrebungen,
+          die Stadt und Agglomeration als Hauptstadtregion Schweiz deutlicher zu positionieren.
+        </p>
+      </div>
+    </pg-accordion-element>
+
+    <pg-accordion-element [title]="'Zürich'">
+      <div>
+        <p>
+          Die Stadt Zürich ist mit 402'762 Einwohnern (Stand 31. Dezember 2016)[6] mit Abstand die grösste Stadt der Schweiz
+          und weist eine Bevölkerungsdichte von 4384 Einwohnern pro Quadratkilometer auf. Die Stadt Zürich gibt die
+          Wohnbevölkerung nach dem wirtschaftlichen Wohnsitzbegriff (umfasst unter anderem auch Wochenaufenthalter,
+          Asylsuchende, Flüchtlinge mit vorläufiger Aufnahme) mit 424'322 Personen per Februar 2018 an.[7] Mit 32,1 Prozent
+          (31. Dezember 2016)[8] weist Zürich einen überdurchschnittlich hohen Ausländeranteil (registrierte Bevölkerung ohne
+          Schweizer Bürgerrecht) auf. Das Umland ist dicht besiedelt, so dass in der Agglomeration Zürich etwa 1,3
+          Millionen[9] und in der Metropolitanregion Zürich etwa 1,83 Millionen Menschen leben.[10] Der Bezirk Zürich ist mit
+          dem Stadtgebiet identisch.
+        </p>
+      </div>
+    </pg-accordion-element>
+
+    <pg-accordion-element [title]="'Basel'">
+      <div>
+        <p>
+          Die Grenzstadt Basel liegt am südlichen Ende der Oberrheinischen Tiefebene und am westlichen Anfang der
+          Hochrheinebene am Dreiländereck Schweiz-Deutschland-Frankreich und hat aus diesem Grund Vororte in allen drei
+          Ländern. In der trinationalen Agglomeration der Stadt wohnen rund 830'000 Menschen[4], während in der
+          großräumigeren Metropolregion Basel etwa 1,3 Mio. Menschen leben.
+        </p>
+      </div>
+    </pg-accordion-element>
+  </pg-accordion-wrapper>
+</body>
+
+</html>
